@@ -5,8 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
-/* GET users listing. */
+// GET /USER/AUTHOR
 router.get('/author', function(_, res) {
-  res.send('author',{author:"Rafael"});
+  res.render('author',{author: "Rafael elizalde"});
 });
+
 module.exports = router;

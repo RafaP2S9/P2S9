@@ -17,30 +17,27 @@
 			"extensions": [
 				"mongodb.mongodb-vscode",
 				"PKief.material-icon-theme",
-				"ritwickdey.LiveServer",
-				"meganrogge.template-string-converter",
-				"wayou.vscode-todo-highlight",
-				"rangav.vscode-thunder-client",
-				"eamodio.gitlens",
-				"usernamehw.errorlens",
-				"esbenp.prettier-vscode",
-				"christian-kohler.path-intellisense",
-				"dbaeumer.vscode-eslint"
+    			"ritwickdey.LiveServer",
+    			"meganrogge.template-string-converter",
+   				"wayou.vscode-todo-highlight",
+    			"rangav.vscode-thunder-client",
+    			"eamodio.gitlens",
+    			"usernamehw.errorlens",
+    			"esbenp.prettier-vscode",
+    			"christian-kohler.path-intellisense",
+    			"dbaeumer.vscode-eslint"
 			]
 		}
 	},
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/express-generator:2": {}
 	},
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [3000, 27017]
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-       // Updated upstream,
 	// "postCreateCommand": "yarn install",
-
-	// "postCreateCommand": "npm install"
-
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
